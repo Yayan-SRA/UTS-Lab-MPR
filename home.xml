@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="227dp"
+                    android:orientation="vertical" >
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="381dp"
+                            android:layout_height="201dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.615"
+                            app:srcCompat="@drawable/kampusmerdeka" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/button20"
+                        android:layout_width="133dp"
+                        android:layout_height="62dp"
+                        android:layout_weight="1"
+                        android:onClick="home"
+                        android:text="Home Page"
+                        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <Button
+                        android:id="@+id/bt_alert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:text="Log Out"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/button20"
+                        android:elevation="0dp"
+                        />
+
+                    <Button
+                        android:id="@+id/button22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:onClick="profile"
+                        android:text="Profile"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/button20"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout"
+                        android:layout_width="416dp"
+                        android:layout_height="506dp"
+                        android:orientation="horizontal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.6"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0">
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/button11"
+                        android:layout_width="379dp"
+                        android:layout_height="57dp"
+                        android:text="Persyaratan dan Ketentuan"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.06" />
+
+                    <Button
+                        android:id="@+id/button12"
+                        android:layout_width="379dp"
+                        android:layout_height="57dp"
+                        android:text="Seleksi"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.234" />
+
+                    <Button
+                        android:id="@+id/button13"
+                        android:layout_width="379dp"
+                        android:layout_height="57dp"
+                        android:text="Pelaksanaan Program"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.418" />
+
+                    <Button
+                        android:id="@+id/button14"
+                        android:layout_width="379dp"
+                        android:layout_height="57dp"
+                        android:text="Monitoring"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.612" />
+
+                    <Button
+                        android:id="@+id/button15"
+                        android:layout_width="379dp"
+                        android:layout_height="57dp"
+                        android:text="Evaluasi"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.809" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
